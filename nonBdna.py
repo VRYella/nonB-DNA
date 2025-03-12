@@ -15,6 +15,10 @@ page = st.sidebar.radio("Go to", ["Home", "Upload & Analyze", "Results", "Visual
 # Home Page
 if page == "Home":
     st.title("non B DNA Motif Analysis Tool")
+     st.write("""
+        This tool helps analyze DNA sequences to identify various **Non-B DNA motifs**.
+        
+    """)
     
     st.image("https://github.com/VRYella/nonB-DNA/blob/main/image.jpg")
 # About Page
