@@ -14,16 +14,13 @@ page = st.sidebar.radio("Go to", ["Home", "Upload & Analyze", "Results", "Visual
 
 # Home Page
 if page == "Home":
-    st.title("Welcome to DNA Motif Analysis Tool")
-    st.write("""
-        This tool helps analyze DNA sequences to identify various **Non-B DNA motifs**.
-        
-    """)
+    st.title("non B DNA Motif Analysis Tool")
+    
     st.image("https://github.com/VRYella/nonB-DNA/blob/main/image.jpg")
 # About Page
 
 elif page == "About":
-    st.title("About DNA Motif Analysis")
+    st.title("About non B DNA Motif Analysis")
     st.write("""
     - **A-phased repeats (APRs):** Comprise three or more A/T-rich segments separated by 10-nucleotide spacers.
     - **Direct repeats (DRs):** Consist of repeated 4- to 10-nucleotide sequences within a genome.
