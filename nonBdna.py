@@ -20,7 +20,8 @@ if page == "Home":
         
     """)
     
-    st.image("https://github.com/VRYella/nonB-DNA/blob/main/image.jpg")
+    st.image("st.image("https://raw.githubusercontent.com/VRYella/nonB-DNA/main/image.jpg")
+")
 # About Page
 
 elif page == "About":
