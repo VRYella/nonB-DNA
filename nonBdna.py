@@ -15,7 +15,7 @@ page = st.sidebar.radio("Go to", ["Home", "Upload & Analyze", "Results", "Visual
 # Home Page
 if page == "Home":
     st.title("non B DNA Motif Analysis Tool")
-     st.write("""
+    st.write("""
         This tool helps analyze DNA sequences to identify various **Non-B DNA motifs**.
         
     """)
