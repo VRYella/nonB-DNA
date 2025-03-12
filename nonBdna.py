@@ -21,7 +21,7 @@ if page == "Home":
     """)
     
     st.image("https://raw.githubusercontent.com/VRYella/nonB-DNA/main/image.jpg")
-")
+
 # About Page
 
 elif page == "About":
